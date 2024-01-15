@@ -90,5 +90,17 @@ public class Practice {
 		clonedList = (List<String>)list.clone();
 		System.out.println("cloned list is "+clonedList);
 		
+		//17. Write a Java program to empty an array list.
+		System.out.println("Remove all elements from cloned list "+clonedList.removeAll(clonedList));
+		System.out.println("List clonedList after removing all elemnts is "+clonedList);
+		
+		//18. Write a Java program to test whether an array list is empty or not.
+		if(clonedList.isEmpty()) {
+			System.out.println("list is empty");
+		}else {
+			System.out.println("list is not empty");
+		}
+		
+		
 	}
 }
